@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Nike dark product card</title>
+	<meta name="description" content="Just do it!">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="card">
+		<img class="card__logo" src="images/logo.png" alt="nike_logo">
+        <div class="card__model"></div>
+		<div class="card__color-picker">
+			<ul class="list">
+				<li class="card__color-picker--active"><img src="images/active.png" alt="active"></li>
+				<li class="card__color-picker--color"><img src="images/white.png" alt="white"></li>
+				<li class="card__color-picker--color "><img src="images/red.png" alt="red"></li>
+				<li class="card__color-picker--color "><img src="images/light_blue.png" alt="light_blue"></li>
+			</ul>
+		</div>
+		<div class="card__info">
+			<h1>Nike SB Stefan<br>Janoski Max</h1>
+			<p>Unisex Skateboarding Shoe</p>
+		</div>
+		<div class="card__rating">
+			<img src="images/rating.png" alt="stars">
+		</div>
+		<div class="card__purchase">
+			<form action="#" method="post">
+				<select name="size" class="card__purchase--info">
+			    	<option value="Size">Size</option>
+			    	<option value="Size">39</option>
+			    	<option value="Size">40</option>
+			    	<option value="Size">41</option>
+			  	</select>
+				<select name="quantity" class="card__purchase--info">
+			    	<option value="Qty">Qty</option>
+			    	<option value="Qty">1</option>
+			    	<option value="Qty">2</option>
+			    	<option value="Qty">3</option>
+			  	</select>
+			  	<input type="submit" value="Add to cart" class="card__purchase--submit">
+			</form>
+		</div>
+	</div>
+</body>
+</html>
